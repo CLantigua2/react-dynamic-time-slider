@@ -1,13 +1,13 @@
-# React Modern Time Slider
-
-[![Build Status](https://travis-ci.org/CLantigua2/react-modern-time-slider.svg?branch=master)](https://travis-ci.org/CLantigua2/react-modern-time-slider)
+# React Dynamic Time Slider
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e8b0f282-2143-429f-ad05-1ad8646e996b/deploy-status)](https://app.netlify.com/sites/react-dynamic-time-slider-demo/deploys)
 
 
 Forked slider from <a href="https://github.com/ashvin27/react-time-range-slider" target="_blank">React-time-range-slider by ashvin27</a>.
 This slider was altered to be more modular. This allows you to inject as many as you need on a page while maintaining individual functionality for each instance. It is meant to output 12 hour AM/PM formatted time.
 
+You can see a live demo 👉 [Here](https://react-dynamic-time-slider-demo.netlify.com/)
 
-<img src="https://github.com/CLantigua2/react-modern-time-slider/blob/master/slider.PNG" width="800">
+<img src="https://github.com/CLantigua2/react-dynamic-time-slider/blob/master/slider.PNG" width="800">
 
 This slider was made to serve a very general puprose
 
@@ -20,7 +20,7 @@ This slider was made to serve a very general puprose
 Import to use inside your component. Can be used with a class or functional (hooks) component.
 
 ```js
-import Slider from 'react-modern-time-slider'
+import Slider from 'react-dynamic-time-slider'
 ```
 
 ### React Class Component Example
