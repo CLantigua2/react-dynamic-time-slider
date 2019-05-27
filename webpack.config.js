@@ -1,0 +1,35 @@
+var path = require('path')
+
+module.exports = {
+    entry: './src/index.js',
+    output: {
+        path: path.resolve(__dirname, 'build'),
+        filename: 'index.js',
+        libraryTarget: 'commonjs2'
+    },
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                include: path.resolve(__dirname, 'src'),
+                exclude: /(node_modules|bower_components|build)/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['env']
+                    }
+                }
+            },
+            {
+                test: /\.css$/,
+                use: ['css-loader']
+            }
+        ]
+    },
+    externals: {
+        'react': 'commonjs react',
+        'moment': 'moment',
+        'prop-types': 'prop-types',
+        'react-input-range': 'react-input-range'
+    }
+}
