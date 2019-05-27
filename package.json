@@ -1,12 +1,12 @@
 {
-  "name": "react-time-slider",
+  "name": "react-dynamic-time-slider",
   "version": "1.0.0",
   "description": "modern dynamic time slider that takes am and pm",
   "author": "Carlos Lantigua",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CLantigua2/react-time-slider.git"
+    "url": "git+https://github.com/CLantigua2/react-dynamic-time-slider.git"
   },
   "main": "build/index.js",
   "scripts": {
