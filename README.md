@@ -15,6 +15,16 @@ This slider was made to serve a very general puprose
 * Easy to map over state and add on to multiple days if needed
 * Written to work with function hooks components or React classes
 
+## Installation
+with npm
+```bash
+npm install react-dynamic-time-slider
+```
+with yarn
+```bash
+yarn add react-dynamic-time-slider
+```
+
 ## Usage
 
 Import to use inside your component. Can be used with a class or functional (hooks) component.
@@ -34,13 +44,12 @@ class App extends Component {
           name: 'Sunday (disabled)',
           start: "9:00 AM",
           end: "5:00 PM",
-          closed: true,
+          closed: false,
           step: 1,
           id: 1,
         }
       ]
     }
-    this.submitHandler = this.submitHandler.bind(this)
     this.timeChangeHandler = this.timeChangeHandler.bind(this)
   }
 
